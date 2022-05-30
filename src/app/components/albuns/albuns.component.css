@@ -1,0 +1,15 @@
+.card{
+    background-color: transparent;
+    width: 303px;
+    height: 303px;
+}
+
+.card-img-top{
+    width: 304px;
+    height: 304px;
+    border: 1px solid white;
+}
+
+.card:hover{
+    
+}

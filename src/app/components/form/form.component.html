@@ -1,0 +1,22 @@
+<div class="container">
+    <h3 class="text-uppercase">Nirvana Mailing List</h3>
+
+
+    <h4 class="text-white">SIGN UP TO THE NEWSLETTER BELOW USING YOUR EMAIL</h4>
+    <section>
+        <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+
+            <label class="form-group text-white">Email</label>
+            <input type="email" name="email" id="email" 
+            ngModel
+            #emailInput="ngModel"
+            class="form-group"           
+            >
+
+
+        
+        
+        <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </section>
+</div>

@@ -1,0 +1,24 @@
+li{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #421d1d;
+    letter-spacing: 1.2px;
+}
+
+h2 {
+    margin-top: 100px;
+    letter-spacing: 3px;
+    color: #F6B922;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.container-fluid{
+    background-image: url('../../../assets/timeline/Logo-Nirvana.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

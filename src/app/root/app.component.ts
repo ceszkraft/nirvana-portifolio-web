@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-portifolio';
+
+  transparent_logo : string = 'https://www.nirvana.com/files/2015/12/nirvana-logo.png'
 }
