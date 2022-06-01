@@ -3,6 +3,7 @@
 
 
     <h4 class="text-white">SIGN UP TO THE NEWSLETTER BELOW USING YOUR EMAIL</h4>
+    <div class="container-fluid">
     <section>
         <form (ngSubmit)="onSubmit(form)" #form="ngForm">
 
@@ -10,13 +11,38 @@
             <input type="email" name="email" id="email" 
             ngModel
             #emailInput="ngModel"
-            class="form-group"           
+            class="form-control"
+            required    
             >
 
+            <input type="date" name="date" id="date"
+            class="form-control" [(ngModel)]="date"
+            required min=""
+            >
 
+            <div class="checkbox">
+                <div class="row">
+                    <div class="col-12">
+                    <input type="checkbox" name="agreement" 
+                    id="agreement" ngModel
+                    >
+                    <label class="form-group text-white">SIGN UP TO RECEIVE EMAIL UPDATES AND OFFERS FROM NIRVANA</label>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="cont">
+            <span>EMAILS WILL BE SENT BY OR ON BEHALF OF UNIVERSAL MUSIC GROUP 2220 COLORADO
+                AVENUE, SANTA MONICA , CA 90404 (310) 865-4000. YOU MAY WITHDRAW YOUR
+                CONSENT AT ANY TIME. PRIVACY POLICY / DO NOT SELL MY PERSONAL INFORMATION
+            </span>
+        </div>
+        <button type="submit" class="btn btn-primary"
         
-        
-        <button type="submit" class="btn btn-primary">Register</button>
+        [disabled]="!form.valid"
+        >Register</button>
+
+
         </form>
     </section>
+</div>
 </div>

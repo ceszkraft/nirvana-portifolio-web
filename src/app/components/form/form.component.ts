@@ -9,13 +9,19 @@ import { NgForm } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
 
+  date: Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  
   onSubmit(form: NgForm){
     console.log(form.value);
     
   }
-}
+
+  }
+
+
+
