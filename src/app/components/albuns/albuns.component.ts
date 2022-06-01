@@ -26,35 +26,32 @@ albuns: AlbumModel[] = [
     url: '../../../assets/albuns/nevermind/cover.jpg'
   },
   {
-    name: 'nevermind',
-    url: '../../../assets/albuns/nirvana/cover.jpg'
+    name: 'outcesticide',
+    url: '../../../assets/albuns/outcesticide/cover.jpg'
   },
   {
-    name: 'nevermind',
-    url: '../../../assets/albuns/nirvana/cover.jpg'
+    name: 'interview-limited-edition',
+    url: '../../../assets/albuns/interview-limited-edition/cover.jpeg'
     
   },
   {
-    name: 'nevermind',
-    url: '../../../assets/albuns/nirvana/cover.jpg'
+    name: 'live',
+    url: '../../../assets/albuns/nirvana-live/54883830_1SZ.webp'
     
   },
   {
-    name: 'nevermind',
-    url: '../../../assets/albuns/nirvana/cover.jpg'
+    name: 'unplugged-new-york',
+    url: '../../../assets/albuns/unplugged-new-york/cover.jpg'
     
   },
   {
-    name: 'nevermind',
+    name: 'nirvana logo',
     url: '../../../assets/albuns/nirvana/cover.jpg'
-    
   },
   {
-    name: 'nevermind',
-    url: '../../../assets/albuns/nirvana/cover.jpg'
-    
-  },
-  
+    name: 'nirvana-complete-cover',
+    url: '../../../assets/albuns/nirvana-complete-cover-version/cover.jpg'
+  }
 
 
 
